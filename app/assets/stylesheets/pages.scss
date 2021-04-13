@@ -1,0 +1,173 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.logo {
+    width: 16%;
+    padding: 12px 25px;
+}
+
+header ul{
+    display: block;
+    float: right;
+    margin-top: 13px;
+}
+
+header li {
+    display: block;
+    float: right;
+    padding: 15px;
+    margin: 10px 5px;
+    font-weight: lighter;
+}
+
+#imagenGrande {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+#imagenGrande h1, #imagenGrande h2 {
+    text-align: center;
+    color: #FFF;
+}
+
+#imagenGrande h1 {
+    font-size: 4.5em;
+    padding-top: 15%;
+}
+
+
+#imagenGrande h2 {
+    font-size: 1.5em;
+    padding-top: 2%;
+    font-weight: lighter;
+}
+
+.iconos {
+    width: 33%;
+    padding-top: 25%;
+}
+
+#descripcion article {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+#descripcion {
+    height: 70%;
+}
+
+.containerDescripcion {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+ 
+}
+
+#descripcion h1 {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: normal;
+    padding-top: 50px;
+}
+
+#descripcion h2 {
+    color: #19b26b;
+    font-size: 1.5em;
+}
+
+.h2normal {
+    padding-top: 25px;
+}
+
+.h2raro {
+    padding-top: 41px;
+}
+
+#descripcion p {
+    font-size: 1.3em;
+    font-weight: lighter;
+    padding-top: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.lineaVerde {
+    width: 26%;
+    background-color: #19b26b;
+    color: #19b26b;
+    margin: 5px auto;
+    border-width: 0;
+    height: 4px;
+}
+
+#kanye {
+    height: 94%;
+}
+
+.fondoVerde {
+    background-color: #19b26b;
+    margin: 40px;
+    height: 100%;
+    position: relative;
+}
+
+.letrasFondoVerde {
+    
+    padding: 5% 8%;
+    color: #FFF;
+    /* height: 80%; */
+    /*   */
+}
+
+.letrasFondoVerde p {
+    width: 30%;
+    margin-top: 35px;
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+
+.letrasFondoVerde h1 {
+    font-size: 38px;
+    letter-spacing: .8px;
+}
+
+.lineaBlanca {
+    width: 46.3%;
+    background-color: white;
+    color: white;
+    margin: 5px 0;
+    border-width: 0;
+    height: 4px;
+}
+
+.letrasFondoVerde h2 {
+    margin-top: 45px;
+    font-size: 1.5em;
+}
+
+.imgKanye {
+    display: block;
+    float: right;
+    width: 25%;
+    padding-top: 8%;
+    padding-right: 8%;
+}
+
+.iconoBlanco {
+    position: absolute;
+    width: 10%;
+    top: 40%;
+    left: 45%;
+}
